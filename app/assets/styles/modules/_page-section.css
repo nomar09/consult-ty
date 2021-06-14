@@ -122,6 +122,15 @@
     }
   }
 
+  &--description-smaller {
+    font-size: 1rem;
+    color: #2c2c2c;
+
+    @mixin atMedium {
+      font-size: 1.25rem;
+    }
+  }
+
   &--description {
     font-size: 1rem;
     color: #2c2c2c;
@@ -184,7 +193,7 @@
       line-height: 1.5em;
 
       @mixin atMedium {
-        font-size: 1.3125rem;
+        font-size: 1.2rem;
         line-height: 1.5em;
         font-weight: 500;
       }

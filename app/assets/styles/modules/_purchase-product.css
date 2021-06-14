@@ -1,0 +1,38 @@
+.purchase-product {
+  box-shadow: 0 0 5px #c1c1c1;
+  margin: 15px 0px;
+  &--header-container {
+    background: #02aee8;
+    padding: 10px;
+  }
+  &--headline {
+    margin: 0;
+    font-size: 1.2rem;
+    @mixin atMedium {
+      font-size: 1.5rem;
+    }
+  }
+
+  &--list-container {
+    padding: 25px;
+  }
+
+  &--label {
+    margin: 0px 0px 0px 0px;
+    font-size: 1rem;
+    @mixin atMedium {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.purchase-product-content {
+  /* img {
+    max-width: 341px;
+  } */
+
+  .img-container {
+    max-width: 341px;
+    margin: 0px auto;
+  }
+}
